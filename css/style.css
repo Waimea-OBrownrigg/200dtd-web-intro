@@ -29,4 +29,23 @@ section#likes div{
 
 section#likes article{
     flex: 1;
+    border: solid;
+    border-color: var(--pico-primary);
+    border-width: 7px;
+    border-radius: 25px;
+}
+
+/* DEMOS ====================================== */
+
+section.demo div {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: aqua;
+}
+
+section.demo div P{
+    font-size: 5rem;
+    padding: 1rem;
+    background-color:  rebeccapurple;
 }
